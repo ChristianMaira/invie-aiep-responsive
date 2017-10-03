@@ -274,11 +274,27 @@ input:focus, textarea:focus {
 }
 
 
+@media screen and (max-width: 900px){
+
+  .titulo {
+    font-size: 65px;
+    margin-top: 30px;
+    color: #DDB208
+  }
+
+ .footer {
+
+     background: #1B5377;
+  }
+
+ }
+
 @media screen and (max-width: 800px) {
   /* Cambiando los estilos de la portada */
   .titulo {
     font-size: 45px;
     margin-top: 30px;
+    color: #DDB208
   }
   .title-a{
     font-size: 18px;
@@ -290,6 +306,16 @@ input:focus, textarea:focus {
     margin-bottom: 30px;
     display: inline-block;
   }
+
+   .footer {
+
+     background: #2476AA;
+  }
+  .h1 {
+   .position: absolute;
+
+  }
+
 
   /* Guitarras */
     .guitarras {
@@ -308,6 +334,7 @@ input:focus, textarea:focus {
     .guitarra.b {
       height: auto;
     }
+
     .contenedor-guitarra-b {
       position: static;
       margin: 0;
@@ -393,7 +420,7 @@ input:focus, textarea:focus {
     text-align: center;
   }
   .titulo {
-    font-size: 30px;
+    font-size: 22px;
   }
   .title-a {
     font-size: 16px;
